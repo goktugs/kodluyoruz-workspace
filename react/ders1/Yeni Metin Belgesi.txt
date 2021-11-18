@@ -1,8 +1,0 @@
-async await basitçe işlemlerin sıralı gitmesini sağlıyor. javascript aslında tüm satırları otomatik oynatmaya çalışıyor.
-boş fonksiyon cağırmadan direk çalışıtrmak için (() => {})
-axios object döndürüyor ama bunu biçimkendimrek gerek. bu yüzden data kullanıcaz.
-promise:
-
-resolve:  işlem başarılı şekilde gerçekleşti alsana data demek.
-reject: bu kod çalışırken bir problem oluştu bunu reject reddettim demek.
-resolve olunca then'e düşer. reject olduğunda catch'e düşer.
