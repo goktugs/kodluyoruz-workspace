@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+}
+
+h3 {
+  color: #5c1ad9;
+  text-align: center;
+  margin-top: 11px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header h1 {
+  text-align: center;
+  color: palevioletred;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.menu ul li {
+  margin-right: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffa500;
+}
+.menu ul li a:hover {
+  box-shadow: inset 0 -3px 0 0 #000080;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main h3 {
+  color: purple;
+  font-size: 25px;
+  margin: 15px 0;
+}
+.main p {
+  margin-bottom: 15px;
+}
+
+.prod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.prod h5 {
+  margin-bottom: 10px;
+  color: orange;
+  font-size: 16px;
+}
+.prod ul {
+  list-style-type: circle;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img-container p {
+  text-shadow: rgba(145, 10, 10, 0.7);
+}
+.img-container .guitar {
+  position: relative;
+}
+.img-container .guitar p {
+  position: absolute;
+  top: 500;
+}
+.img-container .guitar img {
+  width: 200px;
+  box-shadow: rgba(100, 100, 100, 0.7);
+}
+
+/*# sourceMappingURL=style.css.map */
